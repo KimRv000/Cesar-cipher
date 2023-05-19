@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+
+
+    <form class="background">
+      <main class="webContainer">
+
+        <header class="header">
+          <h1 class="title"> CruShhh ❤ </h1>
+        </header>
+
+        <label class="label"> Escoge un número secreto
+          <input type="number" name="offset" id="offsetNumber" class="numberInput" min="1" max="99" maxlength=""
+            placeholder="">
+        </label>
+
+        <br>
+        <div class="cardContainer">
+          <div class="cardBorder">
+            <div class="card">
+
+              <p class="text"> Mensaje para mi crush ...</p>
+
+              <input type="text" name="cifrar" id="textToCode" class="textInput" placeholder="Escribe tu mensaje"
+                autocomplete="off" style="text-transform:uppercase;" /> <br>
+              <button id="buttonCifrar" type="button" class="button"> cifrar </button> <br>
+              <input type="text" name="cifrado" id="codedText" placeholder="Tu mensaje cifrado es ..." class="textInput"
+                autocomplete="off" style="text-transform:uppercase;" />
+
+            </div>
+          </div>
+
+          <br><br>
+
+          <div class="cardBorder">
+            <div class="card">
+
+              <p class="text"> Mensaje de mi crush ...</p>
+
+              <input type="text" name="decifrar" id="textToDecode" class="textInput" placeholder="Escribe tu mensaje"
+                autocomplete="off" style="text-transform:uppercase;" /> <br>
+              <button id="buttonDecifrar" type="button" class="button"> descifrar </button> <br>
+              <input type="text" name="cifrado" id="decodedText" placeholder="Tu mensaje descifrado es ..." class="textInput"
+                autocomplete="off" style="text-transform:uppercase;" />
+
+
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </form>
+
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

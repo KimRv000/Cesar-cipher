@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.background {
+  background-color: #3FBEBC;
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+.webContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #015958;
+  padding: 48px ;
+  min-height: 100vh;
+  border-radius: 20px;
+}
+
+.title {
+  color: #FCA19E;
+  text-align: center;
+  font-family: jsMath-cmmi10;
+  font-size: 104px;
+  text-shadow: 2px 4px 3px  #9c5654;
+  
+}
+
+.label {
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: 22px;
+  padding: 30px;
+}
+.numberInput {
+ font-size: 20px;
+color: black;
+padding: 5px;
+
+}
+
+.numberInput:hover {
+  box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.cardContainer{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding: 20px;
+}
+
+.cardBorder {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  width: 808px;;
+  height: 428px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 120px;
+ 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 767px;
+  height: 390px;
+  background: #FFFFFF;
+  border-radius: 23px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.card:hover {
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.text {
+  font-family: jsMath-cmmi10;
+  font-weight: bold;
+  color: #4d4c4c;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.textInput {
+  color: #000000;;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  width: 493px;
+  height: 208px;
+  border-radius: 8px;
+}
+
+.textInput:hover {
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+  border: 0;
+  padding: 6px 18px;
+  border-radius: 3rem;
+  background-color: #F1A19F;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
